@@ -21,7 +21,7 @@ namespace webapi.Controllers
 
             List<Members> memberRecords = new List<Members>();
             List<Claims> claimRecords = new List<Claims>();
-            var paths = Directory.GetFiles(@"C:\Users\sruthi\Documents\Visual Studio 2015\Projects\webapi\", "*.csv");
+            var paths = Directory.GetFiles(@"C:\Users\Documents\Visual Studio 2015\Projects\webapi\", "*.csv");
             foreach (var P in paths)
             {
                 TextReader reader = new StreamReader(P);
